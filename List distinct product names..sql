@@ -1,0 +1,4 @@
+--List distinct product names.
+SELECT DISTINCT PRODUCT_NAME
+FROM PRODUCT_DIM
+WHERE CURRENT_IND = 'Y'
